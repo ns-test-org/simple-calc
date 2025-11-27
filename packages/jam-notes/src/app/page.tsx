@@ -94,8 +94,8 @@ export default function Calculator() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center p-4">
-      <div className="bg-gray-800 rounded-2xl shadow-2xl p-6 w-full max-w-sm">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900/20 via-gray-800/30 to-gray-900/20 flex items-center justify-center p-4">
+      <div className="bg-gray-800/90 backdrop-blur-sm rounded-2xl shadow-2xl p-6 w-full max-w-sm border border-gray-700/50">
         <h1 className="text-2xl font-bold text-white text-center mb-6">Calculator</h1>
         
         {/* Display */}
@@ -229,4 +229,6 @@ export default function Calculator() {
     </div>
   );
 }
+
+
 
