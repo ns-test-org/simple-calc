@@ -181,7 +181,7 @@ export default function Calculator() {
           </button>
           <button
             onClick={() => inputOperation('+')}
-            className="bg-black hover:bg-gray-800 text-white font-semibold py-4 rounded-lg transition-colors"
+            className="bg-purple-500 hover:bg-purple-600 text-white font-semibold py-4 rounded-lg transition-colors"
           >
             +
           </button>
@@ -210,6 +210,7 @@ export default function Calculator() {
     </div>
   );
 }
+
 
 
 
